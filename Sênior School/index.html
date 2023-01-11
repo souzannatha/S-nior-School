@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Sênior School</title>
+    </head>
+    <body>
+        <header>
+            <div class="titulo">
+                <h1>Sênior School</h1>
+            </div>
+            <nav>
+                <ul>
+                    <a href="#"><li class="navegacao">Início</li></a>
+                    <a href="#"><li class="navegacao">Método</li></a>
+                    <a href="#"><li class="navegacao">Endereço</li></a>
+                    <a href="#"><li class="navegacao" >Contato</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="esquerda">
+                <h2>Escreva-se agora na <span>Senior School!</span></h2>
+                <p>
+                    Deseja se tornar um programador de sucesso? Venha fazer
+                    parte da melhor escola de programação full-stack do Brasil.
+                    Na Sênior School ensinamos do básico avançado, com
+                    professores experientes no mercado de trabalho.
+                </p>
+                <form action="">
+                    <input
+                        type="text"
+                        placeholder="Nome do aluno"
+                        minlength="3"
+                        maxlength="30"
+                        required
+                    />
+                    <input
+                        type="email"
+                        placeholder="E-mail"
+                        required
+                        minlength="3"
+                        maxlength="30"
+                    />
+                    <input
+                        type="text"
+                        placeholder="(99) 9999-9999"
+                        pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+                        title="Número de telefone precisa ser no formato (99) 9999-9999"
+                        required="required"
+                    />
+
+                    <button>
+                        <img src="/images/enviar.png" alt="" />ENVIAR
+                    </button>
+                </form>
+            </div>
+            <figure>
+                <img
+                    id="coding"
+                    src="/images/code-typing-animate.svg"
+                    alt="Alguém escrevendo um código em alguma linguagem de programação."
+                />
+            </figure>
+        </main>
+        <section>
+            <h2>tudo que você precisa em um só lugar</h2>
+            <div class="publi">
+                <div class="number">
+                    <p><span>+</span> 2000 Alunos</p>
+                    <p><span>+</span> 600 aulas</p>
+                    <p><span>+</span> 8 tecnologias</p>
+                </div>
+            </div>
+        </section>
+        <section class="ferramentas">
+            <div class="aprender">
+                <h2> O que vamos aprender juntos?</h2> 
+            </div>
+            <div class="primeiro">
+                <ul>
+                    <li>
+                        <img
+                            src="/images/logo html.png"
+                            alt="imagem logo do html"
+                        />
+                        <h3>HTML5</h3>
+                        <p>
+                            Aprenda a organizar o conteúdo do seu sistema web com o
+                            HTML. Você aprenderá a criar Sections, Formulários,
+                            tocar Vídeos e mais.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="/images/css.png" alt="imagem logo do css" />
+                        <h3>Css3</h3>
+                        <p>
+                            Aprenda a dar estilo e design ao seu projeto com o mais
+                            atual do CSS. Você aprenderá Flexbox, Grid, animações e
+                            muito mais.
+                        </p>
+                    </li>
+                    <li>
+                        <img
+                            src="/images/javascrpit.png"
+                            alt="imagem logo javascrpit"
+                        />
+                        <h3>JavaScript</h3>
+                        <p>
+                            Crie sistemas profissionais e repletos de interatividade
+                            com o JavaScript. Você vai dominar orientação a objetos,
+                            filter, map, reducer, promises e mais.
+                        </p>
+                    </li>
+                    <li>
+                        <img
+                            src="/images/bootstrap-256.png"
+                            alt="imagem logo do bootstrap"
+                        />
+                        <h3>Bootstrap</h3>
+                        <p>
+                            Use componentes padronizados e estilosos no seu projeto
+                            com o Bootstrap. Assim você criará interfaces muito mais
+                            rapidamente.
+                        </p>
+                    </li>
+                    </div>
+                   
+                </ul>
+
+            </div>
+            <div class="secundarios">
+                <ul>
+                    <li>
+                        <img src="/images/php.png" alt="imagem logo do php" />
+                        <h3>php</h3>
+                        <p>
+                            É uma linguagem de programação utilizada por
+                            programadores e desenvolvedores para construir sites
+                            dinâmicos, extensões de integração de aplicações e
+                            agilizar no desenvolvimento de um sistema.
+                        </p>
+                    </li>
+                    <li>
+                        <img
+                            src="/images/angular.png"
+                            alt="imagem logo do Angular"
+                        />
+                        <h3>Angular</h3>
+                        <p>
+                            É um framework de código aberto usado para construir
+                            aplicativos para web baseados em uma única página
+                            dinâmica.
+                        </p>
+                    </li>
+                    <li>
+                        <img
+                            src="/images/logo-react.png"
+                            alt="imagem logo do react"
+                        />
+                        <h3>React</h3>
+                        <p>
+                            Domine a criação de aplicativos web com o React e Redux.
+                            Desde aplicações simples às mais complexas com usos de
+                            Rotas protegidas e muito mais.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="/images/vue-logo.png" alt="imagem lodo do vue" />
+                        <h3>Vue</h3>
+                        <p>
+                            Vue.js é um framework JavaScript de código-aberto,
+                            focado no desenvolvimento de interfaces de usuário e
+                            aplicativos de página única.
+                        </p>
+                    </li>
+                </ul> 
+        </section>
+        <section class="discord">
+            <h3>E por que não ficar por dentro de todas as novidades?</h3>
+            <p>Entre no nosso <a href="#">discord</a> para ficar por dentro de tudo e fazer novos amigos, tirar dúvidas e  achar freelancers.</p>
+        </section>
+        <div class="barra"></div>
+        <footer>
+            <p>Todos os direitos reservados á: <a href="#">@Sênior School.</a> </p> 
+            <p>Para mais informações entre em contato (99)99999-9999</p>  
+        </footer>
+    </body>
+</html>
